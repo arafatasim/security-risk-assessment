@@ -1,0 +1,3 @@
+risk_id,asset,threat,vulnerability,likelihood_1_5,impact_1_5,inherent_score,planned_control,residual_likelihood_1_5,residual_impact_1_5,residual_score,treatment,owner
+R-001,Synthetic Web Service,Credential abuse,Weak authentication,4,5,=E2*F2,MFA + rate limiting,2,5,=I2*J2,Mitigate,Security
+R-002,Synthetic File Store,Data loss,Insufficient backup testing,3,5,=E3*F3,Immutable backup + restore tests,1,5,=I3*J3,Mitigate,IT Ops
